@@ -1,3 +1,24 @@
+[project]
+name = "hrbrthemes"
+version = "0.1.0"
+authors = [
+  { name="boB Rudis", email="bob@rud.is" },
+]
+keywords=['plotnine, ggplot2, themes']
+dependencies = ['plotnine']
+description = "Opinionated Themes For plotine"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/hrbrmstr/hrbrthemes-p9"
+Issues = "https://gitlab.com/hrbrmstr/hrbrthemes-p9/issues"
+
 [build-system]
-requires = ["setuptools>=46.4.0", "wheel", "plotnine"]
+requires = ["setuptools>=61.0", "wheel", "plotnine"]
 build-backend = "setuptools.build_meta"

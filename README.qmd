@@ -3,10 +3,20 @@ format: gfm
 engine: jupyter
 ---
 
+![](https://img.shields.io/pypi/pyversions/hrbrthemes)
+
 Ref: <https://dailyfinds.hrbrmstr.dev/p/drop-385-2023-12-08-weekend-project>
+
+Install from git:
 
 ```bash
 $ python3 -m pip install git+https://gitlab.com/hrbrmstr/hrbrthemes-p9
+```
+
+Install from PyPI:
+
+```bash
+$ python3 -m pip install hrbrthemes
 ```
 
 ```{python}

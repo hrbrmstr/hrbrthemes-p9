@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name='hrbrthjemes',
+    name='hrbrthemes',
     author='boB Rudis',
     author_email='bob@rud.is',
     description='Opinionated Themes For plotine',
@@ -10,7 +10,7 @@ setuptools.setup(
     package_dir={'': 'src'},
     packages=setuptools.find_packages(where='src'),
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 3 - Stable',
         'Environment :: Console',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
@@ -18,7 +18,4 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=['plotnine'],
-    extras_require={
-        'dev': ['check-manifest'],
-    },
 )
