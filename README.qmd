@@ -1,5 +1,8 @@
 ---
-format: gfm
+format: 
+  gfm:
+    fig-format: svg
+    standalone: false
 engine: jupyter
 ---
 
@@ -17,6 +20,11 @@ Install from PyPI:
 
 ```bash
 $ python3 -m pip install hrbrthemes
+```
+```{python}
+#| output: false
+#| echo: false
+%config InlineBackend.figure_format = 'svg'
 ```
 
 ```{python}

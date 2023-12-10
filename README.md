@@ -28,4 +28,4 @@ from plotnine.data import mtcars
   + theme_ipsum())
 ```
 
-![](README_files/figure-commonmark/cell-2-output-1.png)
+![](README_files/figure-commonmark/cell-3-output-1.svg)
